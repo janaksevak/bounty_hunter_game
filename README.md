@@ -19,3 +19,10 @@ The game also demonstrates how to handle external dependencies—such as waiting
 - **Timeouts**: Manage delays or unresponsive activities  
 - **Signals**: Integrate asynchronous external inputs  
 - **Retries**: Automatically retry failed activities to handle exceptions and ensure robustness
+
+### Instructions
+1. Install dependencies
+2. Run temporal server (temporal server start-dev)
+3. Open the UI at: http://localhost:8233/namespaces/default/workflows
+4. Run the "run_gameflow.py" file
+5. Run the "run_worker.py" file
